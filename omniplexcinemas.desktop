@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Omniplex Cinemas
+Comment=Webapp for omniplex.ie
+Type=Application
+Icon=OmniplexCinemas.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --maximized --webappUrlPatterns=https?://omniplex.ie/* https://omniplex.ie/
+Terminal=false
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=true
+
+Name[en_US]=omniplexcinemas.desktop

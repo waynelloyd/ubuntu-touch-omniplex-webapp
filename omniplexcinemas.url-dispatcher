@@ -1,0 +1,10 @@
+[
+        {
+                "protocol": "http",
+                "domain-suffix": "omniplex.ie"
+        },
+        {
+                "protocol": "https",
+                "domain-suffix": "omniplex.ie"
+        }
+]

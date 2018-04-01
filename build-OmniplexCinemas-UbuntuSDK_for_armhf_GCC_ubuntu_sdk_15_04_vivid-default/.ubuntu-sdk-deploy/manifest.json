@@ -1,0 +1,16 @@
+{
+    "name": "omniplexcinemas.waynelloyd",
+    "description": "Webapp for OmniplexCinemas",
+    "architecture": "all",
+    "title": "OmniplexCinemas",
+    "hooks": {
+        "omniplexcinemas": {
+            "apparmor": "omniplexcinemas.apparmor",
+            "desktop": "omniplexcinemas.desktop",
+	        "urls": "omniplexcinemas.url-dispatcher"
+        }
+    },
+    "version": "0.4",
+    "maintainer": "waynelloyd <wayne.lloyd@outlook.com>",
+    "framework": "ubuntu-sdk-15.04"
+}
